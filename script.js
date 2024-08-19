@@ -3,7 +3,7 @@ function createList() {
   ul.id = "list";
 
   const test = ["Test 1", "Test 2", "Test 3"];
-  Test.forEach((item) => {
+  testest.forEach((item) => {
     const li = document.createElement("li");
     li.textContent = item;
     ul.appendChild(li);
